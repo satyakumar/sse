@@ -13,7 +13,7 @@ export class GridComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this);
+    
   }
 
   clickMe(actionSequence) {
