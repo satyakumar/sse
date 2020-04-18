@@ -1,0 +1,31 @@
+p {
+    display: flex;
+    flex-wrap: wrap;
+    height: 89%;
+    margin: 2%;
+    position: relative;
+    background: #FFF;
+}
+button {
+    flex-basis: 42%;
+    margin: 4%;
+    height: 30%;
+    cursor: pointer;
+}
+p > span {
+    width: 4rem;
+    height: 4rem;
+    border: .1rem solid #A8A8A8;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+p > span > span {
+    font-size: 2rem;
+}

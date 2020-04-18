@@ -1,0 +1,9 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+app-grid {
+    flex-basis: 50%;
+    height: 50vh;
+}
